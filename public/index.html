@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="index" href="../src/index.css" />
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,9 +31,28 @@
     -->
     <title>React App</title>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">FollowSaman.dev</a></li>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item"><a href="#">Service</a></li>
+        <li class="item button"><a href="#">Login</a></li>
+        <li class="item button secondary"><a href="#">Sign up</a></li>
+        <li class="toggle">
+          <span class="bars"></span>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <a href="#" style="position: fixed; bottom: 0%">Http://google.com</a>
+    </main>
+
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +63,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="./script.js"></script>
   </body>
 </html>
